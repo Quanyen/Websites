@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: cornsilk;
+}
+
+body {
+    background-image: url(../img/bgblackwood-vertical.jpg);
+    background-size: 100%;
+}
+
+header {
+    font-family: 'Lacquer';
+    font-size: 28px;
+}
+
+h1 {
+    color: brown;
+}
+
+hr {
+    border: solid burlywood 1.9px;
+}
+
+#name {
+    float: left;
+    padding-left: 30px;
+    font-size: 60px;
+    color: burlywood;
+}
+
+#logo {
+    padding-top: 5px;
+    width: 50px;
+}
+
+logowrite {
+    font-size: 50px;
+}
+
+#name a {
+    color: burlywood;
+    text-decoration: none;
+}
+
+#name a:hover {
+    color: burlywood;
+    text-decoration: none;
+}
+
+#name a:visited {
+    color: burlywood;
+    text-decoration: none;
+}
+
+#menubar ul {
+    font-size: 30px;
+    padding-top: 27px;
+    margin-right: 50px;
+    list-style-type: none;
+    float: right;
+}
+
+#menubar ul li {
+    display: inline-block;
+    margin: 7px;
+}
+
+#menubar ul li a {
+    color: lightgrey;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1.0s ease;
+    padding: 5px;
+}
+
+#menubar ul li a:hover {
+    color: burlywood;
+}
+
+.social {
+    color: burlywood;
+    float: right;
+    margin-top: 30px;
+}
+
+.socialIcons {
+    width: 32px;
+}
+
+.social ul li {
+    display: inline-block;
+}
+
+.social ul {
+    margin-right: 10px;
+}
+
+.social {
+    color: burlywood;
+    float: right;
+    margin-top: 30px;
+}
+
+#informative {
+    position: fixed;
+    left: 1640px;
+    margin: 50px 35px 35px 35px;
+    width: 170px;
+    min-height: 400px;
+    border: 3px solid white;
+    border-radius: 25px;
+    color: burlywood;
+}
+
+#informative center h3 {
+    padding-top: 10px;
+}
+
+#informative ul li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+#informative ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+.contents {
+    color: cornsilk;
+    float: left;
+    /*  border-radius: 15px;*/
+    width: 750px;
+    margin-left: 70px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.contents a {
+    color: burlywood;
+    text-decoration: none;
+}
+
+.contents a:hover {
+    color: burlywood;
+    text-decoration: none;
+}
+
+.contents a:checked {
+    color: burlywood;
+}
+
+/*
+.contents2 {
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 5px;
+    width: 750px;
+}
+
+.contents2 a {
+    color: burlywood;
+    text-decoration: none;
+}
+
+.contents2 a:hover {
+    color: burlywood;
+    text-decoration: none;
+}
+
+.contents2 a:checked {
+    color: burlywood;
+}
+*/
+
+.img {
+    /*    width: 750px;*/
+    border: 4px solid cornsilk;
+    border-radius: 250px;
+}
+
+.imgcomment {
+    color: cornsilk;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* 1366x768 Screen Options */
+
+@media only screen and (max-width:1366px) and (min-width: 990px) {
+    body {
+        background-image: url(../img/bgblackwood-horizontal.jpg)
+    }
+
+    logowrite {
+        font-size: 39px;
+    }
+
+    .socialIcons {
+        width: 22px;
+    }
+
+    .social {
+        color: burlywood;
+        float: right;
+        margin-top: 20px;
+    }
+
+    #menubar ul {
+        font-size: 20px;
+        padding-top: 19px;
+        margin-right: 30px;
+        list-style-type: none;
+        float: right;
+    }
+
+    .contents {
+        /*        float: left;*/
+        /*        border: 5px white solid;*/
+        /*        background-color: white;*/
+        /*        border-radius: 15px;*/
+        width: auto;
+        max-width: 750px;
+        margin-left: 210px;
+        margin-top: 50px;
+        text-decoration: none;
+    }
+
+    #informative {
+        position: fixed;
+        left: 1120px;
+        margin: 50px 35px 35px 35px;
+        width: 170px;
+        min-height: 400px;
+        border: 3px solid white;
+        border-radius: 25px;
+        color: burlywood;
+    }
+}

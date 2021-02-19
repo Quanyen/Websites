@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Dosis';
+}
+
+.Hcontainer>h1 {
+    font-size: 120px;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+p {
+    font-size: 2.4vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.Hcontainer>p {
+    font-size: 55px;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* --------------------------- */
+/* HOME STYLING  */
+/* --------------------------- */
+
+#home {
+    position: static;
+    background: url(https://i.hizliresim.com/hiPlHx.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+}
+
+.Hcontainer {
+    position: static;
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding-top: 4.5%;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    line-height: 2;
+}
+
+#slide-to-down {
+    background-color: tomato;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: 0;
+    border-radius: 8px;
+    margin: 0;
+    padding: 20px;
+    transition: 1s ease;
+}
+
+#slide-to-down:hover {
+    box-shadow: 0 0.5em 1em -0.4em;
+}
+
+/* --------------------------- */
+/* SECTOR1 STYLING  */
+/* --------------------------- */
+
+#sector1 {
+    background-color: rgba(240, 238, 236, 0.719);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.content {
+    display: inline-block;
+    margin: 70px 1%;
+
+}
+.explainTitle{
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+}
+.explain{
+    font-family: 'Lobster Two', cursive;
+    line-height: 2;
+}
+
+.firstContent {
+    width: 80%;
+    margin: auto;
+}
+
+.imgLeft {
+    float: left;
+    border: rgba(240, 238, 236) solid 1px;
+    -webkit-box-shadow: -12px 10px 5px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -12px 10px 5px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -12px 10px 5px -1px rgba(0, 0, 0, 0.75);
+    padding: 0 10px 0 0;
+}
+
+.imgRight {
+    float: right;
+    border: rgba(240, 238, 236) solid 1px;
+    -webkit-box-shadow: 12px 10px 5px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 12px 10px 5px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 12px 10px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 61.9em) {
+    .Hcontainer>h1 {
+        font-size: 50px;
+    }
+
+    .Hcontainer>p {
+        font-size: 30px;
+    }
+
+    .container>p {
+        font-size: 12px;
+    }
+
+    .Hcontainer {
+        padding-top: 23%;
+        line-height: 2;
+    }
+
+    #home {
+        background: url(https://i.hizliresim.com/JsoGyc.jpg);
+        background-size: cover;
+    }
+
+    .imgLeft {
+        float: none;
+        width: 220px;
+    }
+
+    .imgRight {
+        float: none;
+        width: 220px;
+    }
+}
+
+@media (max-width: 1336px) and (min-width:769px) {
+    .Hcontainer>h1 {
+        font-size: 50px;
+    }
+
+    .container>p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 340px) {
+    .Hcontainer>h1 {
+        font-size: 40px;
+    }
+
+    .Hcontainer>p {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Indie+Flower&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Dosis';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navigatebar {
+    position: fixed;
+    display: inline-block;
+    background-color: rgb(59, 59, 59);
+    /* justify-content: space-between; */
+    width: 100%;
+    color: #fff;
+    z-index: 1;
+}
+
+.navbar {
+    margin-left: 2em;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+}
+
+#logo {
+    font-size: 5vh;
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Fredericka the Great', cursive;
+    color: #fff;
+    /* margin-top: 0.1em; */
+    float: left;
+}
+
+.linked {
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 1em 1em;
+    border: 0;
+    line-height: 1;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+#planlar {
+    color: rgb(19, 19, 19);
+}
+
+#phone-menubar-btn {
+    display: none;
+    background-color: rgb(59, 59, 59);
+    border: none;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    right: 20px;
+    padding: 0.5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+#phone-menubar-btn.active {
+    transform: translateX(-160px) translateY(35px);
+}
+
+#phone-menubar {
+    background-color: rgb(59, 59, 59);
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 2rem;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+#phone-menubar.active {
+    transform: translateX(0);
+}
+
+#phone-menubar ul {
+    z-index: 99;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+#phone-menubar ul li {
+    padding: 1rem 0;
+}
+
+#phone-menubar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    height: 10vh;
+    background-color: rgb(59, 59, 59);
+    color: #fff;
+}
+
+#footer-box {
+    position: relative;
+    margin: 1vh 20vh;
+    float: left;
+}
+
+/* PAGES */
+
+#container{
+    padding-top: 6.4vh;
+}
+
+/* PAGES */
+
+@media (max-width: 64em) {
+    #logo {
+        font-size: 1.7em;
+    }
+
+    .navbar {
+        margin: 0;
+        padding: 0;
+    }
+
+    .linked {
+        display: none;
+    }
+
+    #phone-menubar-btn {
+        top: 0;
+        right: 2px;
+        display: block;
+    }
+    footer{
+        height: 15vh;
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 65em) {
+    #logo {
+        font-size: 1.7em;
+    }
+
+    .navbar {
+        margin: 0;
+        padding: 0;
+    }
+
+    .linked {
+        padding: 0.5rem 0.5rem;
+    }
+}

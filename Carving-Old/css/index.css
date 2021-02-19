@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: cornsilk;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/bgblackwood-vertical.jpg);
+    background-size: 100%;
+}
+
+header {
+    /*padding-top: 5px;*/
+    font-family: 'Lacquer';
+    font-size: 28px;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    padding: 5px 0px 0px 0px;
+    color: burlywood;
+}
+
+hr {
+    border: solid burlywood 1.9px;
+}
+
+#name {
+    float: left;
+    padding-left: 30px;
+    /*    font-size: 60px;*/
+    color: burlywood;
+}
+
+#logo {
+    padding-top: 5px;
+    width: 50px;
+}
+
+logowrite {
+    font-size: 50px;
+}
+
+#name a {
+    color: burlywood;
+    text-decoration: none;
+}
+
+#name a:hover {
+    color: burlywood;
+    text-decoration: none;
+}
+
+#name a:visited {
+    color: burlywood;
+    text-decoration: none;
+}
+
+#menubar ul {
+    font-size: 30px;
+    padding-top: 27px;
+    margin-right: 50px;
+    list-style-type: none;
+    float: right;
+}
+
+#menubar ul li {
+    display: inline-block;
+    margin: 7px;
+}
+
+#menubar ul li a {
+    color: lightgrey;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1.0s ease;
+    padding: 5px;
+}
+
+#menubar ul li a:hover {
+    color: burlywood;
+}
+
+.social {
+    color: burlywood;
+    float: right;
+    margin-top: 30px;
+}
+
+.socialIcons {
+    width: 32px;
+}
+
+.social ul li {
+    display: inline-block;
+}
+
+.social ul {
+    margin-right: 10px;
+}
+
+#proffKnowledge h1 {
+    color: burlywood;
+    font-size: 50px;
+    font-family: 'Lacquer';
+}
+
+#proffKnowledge {
+    margin-left: 350px;
+    font-size: 20px;
+    width: 1250px;
+}
+
+#proffKnowledge ul {
+    padding: 20px 0px 0px 50px;
+}
+
+#explanationAndimage {
+    float: left;
+    margin: 15px 0px 15px 350px;
+}
+
+#explanationAndimage img {
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+}
+
+#explanationAndimage ol {
+    padding: 5px 0px 0px 370px;
+    font-size: 20px;
+}
+
+.explanation p {
+    font-size: 20px;
+    width: 1250px;
+}
+
+
+/* 1366x768 Screen Options */
+
+@media only screen and (max-width:1366px) and (min-width: 990px) {
+
+    /*
+    body{
+        background-image: url(../img/bgblackwood-horizontal.jpg)
+    }
+    */
+
+    logowrite {
+        font-size: 39px;
+    }
+
+    #menubar ul {
+        font-size: 20px;
+        padding-top: 19px;
+        margin-right: 30px;
+        list-style-type: none;
+        float: right;
+    }
+
+    #proffKnowledge {
+        margin-left: 50px;
+        font-size: 20px;
+        width: 1250px;
+    }
+
+    #explanationAndimage {
+        float: left;
+        margin: 15px 0px 15px 50px;
+    }
+
+    .socialIcons {
+        width: 22px;
+    }
+
+    .social {
+        color: burlywood;
+        float: right;
+        margin-top: 20px;
+    }
+}

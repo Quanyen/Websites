@@ -1,0 +1,36 @@
+
+.link-animation:hover,.link-animation:focus{
+    color: white;
+    box-shadow: 0 0.5em 1em -0.4em;
+    transform: translateY(-0.25em);
+}
+
+.menubar-link{
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: #fff;
+    float: right;
+    margin: 0 1vh 0 0;
+}
+
+
+
+/*
+
+.btn-animation:hover,
+.btn-animation:focus {
+    border-color: var(--hover);
+    color: #fff;
+}
+
+.menubar-btn {
+    color: #ffa260;
+    float: right;
+    margin: 4% 1vh 0 0;
+}
+
+.btn-animation:focus,
+.btn-animation:hover {
+    box-shadow: 0 0.5em 1em -0.4em;
+    transform: translateY(-0.25em);
+} */

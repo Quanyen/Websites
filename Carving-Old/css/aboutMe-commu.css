@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: cornsilk;
+}
+
+body {
+    background-image: url(../img/bgblackwood-vertical.jpg);
+    background-size: 100%;
+}
+
+header {
+    font-family: 'Lacquer';
+    font-size: 28px;
+}
+
+h1 {
+    color: red;
+}
+
+hr {
+    border: solid burlywood 1.9px;
+}
+
+h2 {
+    padding: 5px 0px 0px 0px;
+    color: burlywood;
+}
+
+#name {
+    float: left;
+    padding-left: 30px;
+    font-size: 60px;
+    color: burlywood;
+}
+
+#logo {
+    padding-top: 5px;
+    width: 50px;
+}
+
+logowrite {
+    font-size: 50px;
+}
+
+#name a {
+    color: burlywood;
+    text-decoration: none;
+}
+
+#name a:hover {
+    color: burlywood;
+    text-decoration: none;
+}
+
+#name a:visited {
+    color: burlywood;
+    text-decoration: none;
+}
+
+#menubar ul {
+    font-size: 30px;
+    padding-top: 27px;
+    margin-right: 50px;
+    list-style-type: none;
+    float: right;
+}
+
+#menubar ul li {
+    display: inline-block;
+    margin: 7px;
+}
+
+#menubar ul li a {
+    color: lightgrey;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1.0s ease;
+    padding: 5px;
+}
+
+#menubar ul li a:hover {
+    color: burlywood;
+}
+
+.social {
+    color: burlywood;
+    float: right;
+    margin-top: 30px;
+}
+
+.socialIcons {
+    width: 32px;
+}
+
+.social ul li {
+    display: inline-block;
+}
+
+.social ul {
+    margin-right: 10px;
+}
+
+/*
+#informative {
+    position: fixed;
+    left: 1660px;
+    margin-top: 50px;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+    width: 170px;
+    min-height: 400px;
+    border: 3px solid white;
+    border-radius: 25px;
+    color: burlywood;
+}
+
+#informative center h3 {
+    padding-top: 10px;
+}
+
+#informative ul li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+#informative ul li a {
+    color: white;
+    font-weight: bold;
+}
+*/
+
+#aboutMe {
+    position: relative;
+    top: 132px;
+    left: 234.2px;
+    width: auto;
+    height: auto;
+    max-width: 1600px;
+    border: 4px solid black;
+    background-color: lightgrey;
+}
+
+#aboutMe td {
+    border: solid 4px burlywood;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 400px;
+}
+
+#aboutMe ul {
+    margin: 10px 10px 10px 30px;
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+    color: brown;
+    height: 40px;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px;
+    /*    margin: 0px 0px 0px 0px;*/
+}
+
+.personalabout {
+    text-align: start;
+    font-size: 20px;
+    color: brown;
+    font-weight: normal;
+    margin: 0px 0px 25px 0px;
+}
+
+answer {
+    /*    font-size: 15px;*/
+    color: black;
+    font-weight: normal;
+}
+
+
+
+@media only screen and (max-width:1366px) and (min-width: 990px) {
+    body {
+        background-image: url(../img/bgblackwood-horizontal.jpg)
+    }
+
+    logowrite {
+        font-size: 39px;
+    }
+
+    .socialIcons {
+        width: 22px;
+    }
+
+    .social {
+        color: burlywood;
+        float: right;
+        margin-top: 20px;
+    }
+
+    #menubar ul {
+        font-size: 20px;
+        padding-top: 19px;
+        margin-right: 30px;
+        list-style-type: none;
+        float: right;
+    }
+
+    #aboutMe {
+        position: relative;
+        top: 32px;
+        left: 30px;
+        width: auto;
+        height: auto;
+        max-width: 1600px;
+        border: 4px solid black;
+        background-color: lightgrey;
+    }
+
+    #aboutMe img {
+        width: 300px;
+    }
+
+    #aboutMe tr {}
+
+    #aboutMe td {
+        border: solid 4px burlywood;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        width: 300px;
+    }
+
+    #aboutMe {}
+
+    .title {
+        text-align: center;
+        font-size: 15px;
+        color: brown;
+        height: 40px;
+        font-weight: bold;
+        padding: 0px 0px 0px 0px;
+        /*    margin: 0px 0px 0px 0px;*/
+    }
+
+    .personalabout {
+        text-align: start;
+        font-size: 15px;
+        color: brown;
+        font-weight: normal;
+        margin: 0px 0px 30px 0px;
+    }
+}
